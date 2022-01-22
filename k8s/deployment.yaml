@@ -83,5 +83,4 @@ spec:
   ports:
   - port: 80  #quando quiser export a porta 80 e o container exporta a 5000, preciso fazer o target port
     targetPort: 5000
-    nodePort: 30000
-  type: NodePort
+  type: LoadBalancer
